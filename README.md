@@ -8,6 +8,11 @@
 # 外部模块
 [external]
   [external.rab_common]
+    [external.rab_common.switch]
+      [external.rab_common.switch.base]
+      # 基础服务启动控制
+      [external.rab_common.switch.optional]
+      # 可选服务启动控制
     [external.rab_common.config]
     # 环境: dev/test/pre/prod
     env = "dev"
